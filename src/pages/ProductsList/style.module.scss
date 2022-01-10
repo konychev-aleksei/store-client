@@ -1,0 +1,27 @@
+.grid {
+  padding: 30px 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid > div {
+  margin: auto;
+}
+
+.search {
+  margin: 40px calc(50% - 325px) 25px calc(50% - 325px);
+}
+
+.products {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  width: 300px;
+  padding: 15px !important;
+}
+
+.buttonWrapper {
+  margin: 50px calc(50vw - 150px);
+}

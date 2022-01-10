@@ -1,0 +1,32 @@
+.bar {
+  width: 650px;
+  border: none;
+  outline: none;
+  height: 45px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 22px;
+
+  display: flex;
+  background: white;
+}
+
+.icon {
+  padding: 10px 15px 0 30px;
+  width: 22px !important;
+  filter: invert(0.7);
+}
+
+.bar > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding-right: 25px;
+  font-size: 16px;
+}
+
+.bar > input::-webkit-search-cancel-button {
+  filter: invert(0.5) brightness(1.5);
+  cursor: pointer;
+}
