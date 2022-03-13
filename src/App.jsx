@@ -11,6 +11,7 @@ export default function App() {
         method: "GET"
       });
 
+      console.log("WTF?", response);
       setResponse(response);
     })();
   }, []);
